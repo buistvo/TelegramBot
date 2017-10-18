@@ -1,7 +1,6 @@
 using System;
 using System.Net.Http;
 using TelegramBot.Utils;
-using Test;
 using Xunit;
 
 namespace UnitTests
