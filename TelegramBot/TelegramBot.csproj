@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\TelegramBot.cs">
+      <Link>TelegramBot.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\TelegramBot.OnMessageEventArgs.cs">
+      <Link>TelegramBot.OnMessageEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Audio.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\BoolResult.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\CallbackGame.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Chat.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\ChatAction.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\ChatMember.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\ChatPhoto.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Contact.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Document.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\File.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\ForceReply.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Game.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\InlineKeyboard.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\InlineKeyboardButton.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\InlineKeyboardMarkup.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\InlineQuery.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Invoice.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\KeyboardButton.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Location.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\MaskPosition.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Message.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\MessageEntity.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\OrderInfo.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\PhotoSize.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\ReplyKeyboardMarkup.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\ReplyKeyboardRemove.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Response.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\ShippingAddress.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Sticker.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\StickerSet.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\SuccessfulPayment.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Update.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\User.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\UserProfilePhotos.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Venue.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Video.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\VideoNote.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Types\Voice.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Utils\ChatId.cs" />
+    <Compile Include="..\..\..\Desktop\TelegramBot\TelegramBot\Utils\TelegramFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="TelegramBot.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\..\..\Desktop\TelegramBot\Test\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+</Project>
